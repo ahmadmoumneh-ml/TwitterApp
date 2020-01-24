@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Twitter App</string>
+    <string name="TWITTER_CONSUMER_KEY" translatable="false">lxJip9Tvk8otiT0xRZ3lPmIxn</string>
+    <string name="TWITTER_CONSUMER_SECRET_KEY" translatable="false">bl2eryy8xrGorcexjyCdfjyhrf7OAFp6gwCch2lcbMKRQn8fnk</string>
+
+    <string name="screen_title_maps">Maps</string>
+    <string name="screen_title_search_tweets">Search Tweets</string>
+    <string name="screen_title_tweet_details">Tweet Details</string>
+    <string name="screen_title_view_media">View Media</string>
+    <string name="message_change_radius">Change the radius to get more tweets around your location.</string>
+    <string name="default_radius">5 KM</string>
+    <string name="message_allow_permission">Please allow permission to proceed further</string>
+    <string name="error_message_tweet_load">Facing issue for loading tweets, please try again later</string>
+    <string name="error_message_internet">Please check you internet</string>
+    <string name="button_text">Search</string>
+    <string name="searchFieldHint">Search #tags, trends, etc</string>
+</resources>

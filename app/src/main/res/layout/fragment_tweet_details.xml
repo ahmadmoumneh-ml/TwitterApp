@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details.TweetDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/userAvatar"
+                    android:layout_width="@dimen/userAvatarLayout"
+                    android:layout_height="@dimen/userAvatarLayout"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:orientation="vertical"
+                    tools:ignore="RtlHardcoded">
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/twitterHandle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tweetText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tweet"
+                android:autoLink="all"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/mediaImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin"
+                android:visibility="gone"
+                tools:ignore="ContentDescription" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:layout_marginTop="@dimen/viewMarginTop"
+                android:background="@color/light_gray" />
+
+            <include
+                layout="@layout/layout_tweet_interaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/tweet_interaction" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/viewHeight"
+                android:layout_marginTop="@dimen/tweet_interaction"
+                android:background="@color/light_gray" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

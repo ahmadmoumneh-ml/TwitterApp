@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Twitter App</string>
+
+    <string name="screen_title_maps">Plans</string>
+    <string name="screen_title_search_tweets">Recherche Tweets</string>
+    <string name="screen_title_tweet_details">Tweet Détails</string>
+    <string name="screen_title_view_media">Voir le média</string>
+    <string name="message_change_radius">Modifiez le rayon pour obtenir plus de tweets autour de votre position.</string>
+    <string name="default_radius">5 KM</string>
+    <string name="message_allow_permission">Veuillez autoriser la permission de continuer</string>
+    <string name="error_message_tweet_load">Problème de chargement des tweets, veuillez réessayer ultérieurement.</string>
+    <string name="error_message_internet">S\'il vous plaît vérifier votre internet</string>
+    <string name="button_text">Rechercher</string>
+    <string name="searchFieldHint">Rechercher #tags, les modes, etc</string>
+</resources>

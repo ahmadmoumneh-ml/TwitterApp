@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/maps_margin"
+        android:text="@string/message_change_radius"
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/maps_margin">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/radiusText"
+            android:max="6000"
+            android:min="5"
+            android:progress="5"
+            tools:targetApi="o"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/radiusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/radius_text_margin_left"
+            android:text="@string/default_radius"
+            android:textColor="@color/black"
+            android:textSize="@dimen/radius_text_size"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/google_maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".maps.MapActivity"
+        tools:ignore="RedundantNamespace" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/favoriteIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_un_favorite" />
+
+    <TextView
+        android:id="@+id/favoriteCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_toRightOf="@+id/favoriteIcon"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/reTweetIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/retweet_icon_margin_left"
+        android:layout_toRightOf="@+id/favoriteCount"
+        android:src="@drawable/ic_retweet" />
+
+    <TextView
+        android:id="@+id/retweetCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/retweet_count_margin_left"
+        android:layout_toRightOf="@+id/reTweetIcon"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tweetTimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="36m" />
+
+</RelativeLayout>

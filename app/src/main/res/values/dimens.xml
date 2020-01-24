@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="userAvatarMargin">10dp</dimen>
+    <dimen name="imageViewMargin">10dp</dimen>
+    <dimen name="searchLayoutMargin">10dp</dimen>
+    <dimen name="layoutMargin">3dp</dimen>
+    <dimen name="cardCornerRadius">8dp</dimen>
+    <dimen name="cardElevation">8dp</dimen>
+    <dimen name="userAvatarLayout">48dp</dimen>
+    <dimen name="tweet">5dp</dimen>
+    <dimen name="searchFieldLayout">0dp</dimen>
+    <dimen name="searchButtonLayout">0dp</dimen>
+    <dimen name="viewHeight">0.5dp</dimen>
+    <dimen name="viewMarginTop">7dp</dimen>
+    <dimen name="tweet_interaction">5dp</dimen>
+    <dimen name="retweet_icon_margin_left">30dp</dimen>
+    <dimen name="retweet_count_margin_left">10dp</dimen>
+    <dimen name="text_margin_top">1dp</dimen>
+    <dimen name="tweet_marker">3dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="radius_text_margin_left">20dp</dimen>
+    <dimen name="radius_text_size">20sp</dimen>
+    <dimen name="maps_margin">5dp</dimen>
+</resources>
